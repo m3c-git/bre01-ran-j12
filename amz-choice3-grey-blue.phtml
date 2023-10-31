@@ -1,7 +1,3 @@
- <?php 
- $heroName = $_GET['heroName']; 
- ?>
- 
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,23 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body id="choice-dark-blue">
+<body id="choice-grey-blue">
 <main>
     <section>
-        <h2>Hello <?php echo $heroName; ?>, quelle affaire tu penses sera la plus rentable ?</h2>
+        <h2>Description du choix à faire</h2>
         <div>
-            <form method="get" action="choice2-grey-blue.phtml">
+            <form method="get" action="">
                 <div>
                     <input type="radio" id="choice-1" name="choice" value="choice-1">
-                    <label for="choice-1">Vente de chataingne</label>
+                    <label for="choice-1">Choix 1</label>
                 </div>
                 <div>
                     <input type="radio" id="choice-2" name="choice" value="choice-2">
-                    <label for="choice-2">Amazon FBA</label>
+                    <label for="choice-1">Choix 2</label>
                 </div>
                 <div>
                     <input type="radio" id="choice-3" name="choice" value="choice-3">
-                    <label for="choice-3">Vente de noix</label>
+                    <label for="choice-1">Choix 3</label>
                 </div>
                 <div>
                     <input type="submit" value="Valider le choix" />
@@ -41,7 +37,7 @@
     <section>
         <section>
             <img src="assets/img/door.png" />
-            <h1>Tu es un entrepreneur à la recherche des meilleurs opportunité pour générer un maximun de profit de manière ETHIQUE</h1>
+            <h1>Description de la situation, blablabl magicien, blablabla</h1>
         </section>
     </section>
 </main>
